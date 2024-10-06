@@ -2166,6 +2166,88 @@
         "available": false,
         "size_on_disk_bytes": 2132885216
     },
+    "DGSpitzer Art Diffusion": {
+        "name": "DGSpitzer Art Diffusion",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Dreambooth model based on Vintedois, trained on a dataset of DGSpitzer art. Styles included are outline, sketch, anime, painting and landscape",
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+        ],
+        "version": "1",
+        "style": "artistic",
+        "trigger": [
+            "painting",
+            "arts, dgspitzer",
+            "outline",
+            "anime",
+            "whiteshape",
+            "sketch",
+            "landscape"
+        ],
+        "homepage": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "DGSpitzer_art_diffusion.ckpt",
+                    "md5sum": "3e3d3fae77f485343886d68551d79ec7",
+                    "sha256sum": "f30ba634c1998bb05c5016210a3f0fecb3ab19a4ff850a89e81fbe4cf8125f23"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "DGSpitzer_art_diffusion.ckpt",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DGSpitzer_art_diffusion.ckpt?download=true"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 2132856622
+    },
+    "BPModel": {
+        "name": "BPModel",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
+        "tags": [
+            "anime",
+            "high resolution"
+        ],
+        "version": "1024",
+        "style": "anime",
+        "homepage": "https://huggingface.co/Crosstyan/BPModel",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "BPModel.ckpt",
+                    "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420",
+                    "sha256sum": "d5d6e1898fbc096237038661a5a09bdd25ea31f7a942b0df414d4bae36e9a124"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "BPModel.ckpt",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/BPModel.ckpt?download=true"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 2300165102
+    },
     "Realistic Vision": {
         "name": "Realistic Vision",
         "baseline": "stable diffusion 1",
